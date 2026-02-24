@@ -1,0 +1,67 @@
+.navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 40px;
+}
+
+
+
+.logo 
+{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li 
+{
+    margin-left: 25px;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover 
+{
+    color: #00bfff;
+}
+
+
+
+footer 
+{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.project 
+{
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+.projects
+{
+    padding: 40px;
+    background-color: #f4f4f4;
+}
