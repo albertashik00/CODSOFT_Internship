@@ -1,14 +1,23 @@
+<<<<<<< HEAD
 * 
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+=======
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+>>>>>>> 2c6e55c97ca390fc12f9c1b5969b64c92e7c4e7c
 }
 
 
 header 
 {
+<<<<<<< HEAD
   background-color: #222;
   color: white;
   padding: 15px 40px;
@@ -69,13 +78,130 @@ header nav a
   width: 30%;
   text-align: center;
   border-radius: 8px;
+=======
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.about 
+{
+    display: flex;
+    padding: 40px;
+    background-color: white;
+}
+
+.about img 
+{
+
+    width: 200px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+
+.skills, .projects, .resume, .contact 
+{
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.skills ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+.skills li 
+{
+    background: #333;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+.project 
+{
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+
+
+.resume a 
+{
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+>>>>>>> 2c6e55c97ca390fc12f9c1b5969b64c92e7c4e7c
 }
 
 
 footer 
 {
+<<<<<<< HEAD
   background-color: #222;
   color: white;
   text-align: center;
   padding: 15px;
+=======
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+
+.navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 40px;
+}
+
+
+
+.logo 
+{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+nav ul 
+{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li 
+{
+    margin-left: 25px;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover 
+{
+    color: #00bfff;
+>>>>>>> 2c6e55c97ca390fc12f9c1b5969b64c92e7c4e7c
 }
